@@ -1,0 +1,10 @@
+﻿@model  CsvWebParser.Models.FileViewModel
+
+<div class="row" style="min-height:400px;">
+    <div id="main_content">
+        <div id="fileUploadDiv" style="margin-top:-15px;">
+            <p>@Model.Message</p>
+            @Html.ActionLink("Back to Home", "Index", "Home", new { area = "" }, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+</div>
